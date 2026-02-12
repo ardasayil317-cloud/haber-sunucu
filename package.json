@@ -1,0 +1,14 @@
+{
+  "name": "haber-sunucu",
+  "version": "1.0.0",
+  "description": "Haber siteleri için backend sunucu",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
